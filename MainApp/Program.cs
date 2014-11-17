@@ -7,7 +7,7 @@ using Lib1;
 namespace MainApp
 {
     class Program
-    {
+    {   
         static void Main(string[] args)
         {
             CalculatorCore cal=new CalculatorCore(); 
