@@ -14,7 +14,7 @@ namespace Tests
 
             int result = cal.add(1, 2);
 
-            Assert.AreEqual(5, result);
+            Assert.AreEqual(4, result);
         }
     }
 }
