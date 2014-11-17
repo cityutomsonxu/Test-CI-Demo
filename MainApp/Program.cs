@@ -10,7 +10,7 @@ namespace MainApp
     {
         static void Main(string[] args)
         {
-            CalculatorCore cal=new CalculatorCore();
+            CalculatorCore cal=new CalculatorCore(); 
             Console.WriteLine(cal.add(1,2));
             Console.ReadLine();
         }
