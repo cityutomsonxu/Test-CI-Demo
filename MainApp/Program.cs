@@ -12,7 +12,6 @@ namespace MainApp
         {
             CalculatorCore cal=new CalculatorCore();
             Console.WriteLine(cal.add(1,2));
-            //add this comment in version 2
             Console.ReadLine();
         }
     }
