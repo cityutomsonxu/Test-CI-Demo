@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApp", "MainApp\MainApp.csproj", "{2C749253-5667-43C1-BD9F-9D73F10FE2E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib1", "Lib1\Lib1.csproj", "{9A9558DA-49B9-4250-A906-BDD2182B7759}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib1Tests", "Lib1Tests\Lib1Tests.csproj", "{DB5E8618-3A12-4524-B047-4B9896B0213E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib1SpecNUnitTests", "Lib1SpecNUnitTests\Lib1SpecNUnitTests.csproj", "{A029F1C8-403E-422B-BCBB-34E5BBAFCA0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DB5E8618-3A12-4524-B047-4B9896B0213E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB5E8618-3A12-4524-B047-4B9896B0213E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB5E8618-3A12-4524-B047-4B9896B0213E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A029F1C8-403E-422B-BCBB-34E5BBAFCA0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A029F1C8-403E-422B-BCBB-34E5BBAFCA0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A029F1C8-403E-422B-BCBB-34E5BBAFCA0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A029F1C8-403E-422B-BCBB-34E5BBAFCA0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
