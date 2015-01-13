@@ -11,7 +11,7 @@ namespace Lib1Tests
         {
             CalculatorCore cal = new CalculatorCore();
             int result = cal.add(1, 2);
-            Assert.AreEqual(3, result);
+            Assert.AreEqual(3, result); 
         }
     }
 }
